@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID 19 GÜNCEL DURUMLAR - HHGSUN</title>
+  <link href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/moment.js"></script>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="index.html">Covid19</a> -->
+      <div class="input-group">
+        <select id="selectbox_durumlar" class="form-select" style="flex:1;">
+        </select>
+        <select id="selectbox_ulkeler" class="form-select" style="flex:2;">
+        </select>
+        <!-- <button id="btn_sonuc" type="button" class="btn btn-dark">Sonuçlar</button> -->
+      </div>
+    </div>
+    <div class="copright">
+      @<a href="http://hhgsun.wordpress.com/" target="_blank">hhgsun</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- <canvas id="chart"></canvas> -->
+  </main>
+
+  <div id="loading" class="loader">Bekleyiniz....</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
